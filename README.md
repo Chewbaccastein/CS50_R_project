@@ -22,7 +22,7 @@ You can install the development version from GitHub:
 
 ```r
 # install.packages("devtools")
-devtools::install_github("your-username/chartsmith")
+devtools::install_github("Chewbaccastein/chartsmith")
 ```
 
 ### Limitations in Version 1.0.0
