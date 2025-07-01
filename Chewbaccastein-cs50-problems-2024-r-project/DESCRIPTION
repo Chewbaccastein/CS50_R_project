@@ -1,0 +1,19 @@
+Package: chartsmith
+Title: Generate Quick and Flexible Charts from CSV Files
+Description: Chartsmith is a lightweight and beginner-friendly R package that simplifies the process of generating professional-quality data visualizations directly from CSV files. Designed for speed, simplicity, and clarity, Chartsmith helps users—especially students, educators, and analysts—create bar charts, line graphs, and donut plots with minimal code and no prior ggplot2 experience. Users can interactively import data, select chart types, and visualize information in seconds. Version 1.0.0 supports three chart types (bar, line, donut) and performs basic validation of inputs. However, its current capabilities are limited: it assumes relatively clean CSV input, offers minimal customization options, and does not perform extensive data transformation or formatting. Future updates will focus on expanding chart variety (e.g., scatter plots, histograms, stacked bars), enabling automatic data cleaning, adding more user feedback and guidance in the interactive flow, and enhancing compatibility with Shiny dashboards and educational workflows.
+Version: 1.0.0
+Authors@R: 
+  person("Hansol", "Park", email = "goosegoosegeese@duck.com", role=c("aut", "cre", "cph"))
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    ggplot2,
+    dplyr,
+    readr,
+    tibble,
+    viridis
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/Chewbaccastein/CS50_R_project
+Video: https://youtu.be/-9aZPUqZqO0
